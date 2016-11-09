@@ -1,6 +1,7 @@
 # :first_in sets how long it takes before the job is first run. In this case, it is run immediately
 require "roo"
 
+
 SUM_LETTER = 'J'
 IN_TOTAL_LETTER = 'A'
 
@@ -17,12 +18,19 @@ def count_of_elements(file, first_row)
 	return cnt,cnt_of_each
 end
 
+data = Array.new
 
 SCHEDULER.every '60s', :first_in => 0 do |job|
 	xlsx = Roo::Excelx.new("./test.xlsx")
 	result = count_of_elements(xlsx, 8) 
-	count = result[0]
-	cnt_of_n = result[1].sort
-  	send_event('my_widget', { val: count })
-  	send_event('my_widget2', {items: cnt_of_n.map{|k,v| {label: k, value: v}} })
+  	send_event('my_widget', { val: result[0] })
+  	send_event('my_widget2', {items: result[1].sort.map{|k,v| {label: k, value: v}} })
+  	
+  	data.clear
+  	result[1].sort.each do |digit, count|
+  		data << { "x": digit, "y": count }
+	end
+	data = data[0..-2]
+  send_event('my_wid', { points: data })
+
 end
