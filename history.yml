@@ -1,0 +1,18 @@
+---
+valuation: "data: {\"current\":47,\"last\":73,\"id\":\"valuation\",\"updatedAt\":1479330435}\n\n"
+karma: "data: {\"current\":95616,\"last\":147675,\"id\":\"karma\",\"updatedAt\":1479330435}\n\n"
+synergy: "data: {\"value\":51,\"id\":\"synergy\",\"updatedAt\":1479330435}\n\n"
+convergence: "data: {\"points\":[{\"x\":114,\"y\":10},{\"x\":115,\"y\":29},{\"x\":116,\"y\":6},{\"x\":117,\"y\":34},{\"x\":118,\"y\":26},{\"x\":119,\"y\":30},{\"x\":120,\"y\":19},{\"x\":121,\"y\":39},{\"x\":122,\"y\":8},{\"x\":123,\"y\":3}],\"id\":\"convergence\",\"updatedAt\":1479330435}\n\n"
+buzzwords: "data: {\"items\":[{\"label\":\"Pivoting\",\"value\":12},{\"label\":\"Paradigm
+  shift\",\"value\":11},{\"label\":\"Turn-key\",\"value\":18},{\"label\":\"Enterprise\",\"value\":19},{\"label\":\"Web
+  2.0\",\"value\":16},{\"label\":\"Exit strategy\",\"value\":9},{\"label\":\"Synergy\",\"value\":4},{\"label\":\"Leverage\",\"value\":12},{\"label\":\"Streamlininess\",\"value\":12}],\"id\":\"buzzwords\",\"updatedAt\":1479330435}\n\n"
+barchart: "data: {\"labels\":[45.9,54.0,135.0,150.0,168.3,178.2,190.0,198.0,383.0,2656.65],\"datasets\":[{\"label\":\"Dataset\",\"data\":[2,16,5,4,8,2,1,59,1,1],\"backgroundColor\":[\"rgba(255,
+  99, 132, 0.2)\",\"rgba(255, 99, 132, 0.2)\",\"rgba(255, 99, 132, 0.2)\",\"rgba(255,
+  99, 132, 0.2)\",\"rgba(255, 99, 132, 0.2)\",\"rgba(255, 99, 132, 0.2)\",\"rgba(255,
+  99, 132, 0.2)\",\"rgba(255, 99, 132, 0.2)\",\"rgba(255, 99, 132, 0.2)\",\"rgba(255,
+  99, 132, 0.2)\"],\"borderColor\":[\"rgba(255, 99, 132, 1)\",\"rgba(255, 99, 132,
+  1)\",\"rgba(255, 99, 132, 1)\",\"rgba(255, 99, 132, 1)\",\"rgba(255, 99, 132, 1)\",\"rgba(255,
+  99, 132, 1)\",\"rgba(255, 99, 132, 1)\",\"rgba(255, 99, 132, 1)\",\"rgba(255, 99,
+  132, 1)\",\"rgba(255, 99, 132, 1)\"],\"borderWidth\":1}],\"id\":\"barchart\",\"updatedAt\":1479330429}\n\n"
+cnt_wid: "data: {\"title\":\"Elements: \",\"text\":99,\"id\":\"cnt_wid\",\"updatedAt\":1479330429}\n\n"
+each_cnt_wid: "data: {\"title\":\"Count of each: \",\"items\":[{\"label\":45.9,\"value\":2},{\"label\":54.0,\"value\":16},{\"label\":135.0,\"value\":5},{\"label\":150.0,\"value\":4},{\"label\":168.3,\"value\":8},{\"label\":178.2,\"value\":2},{\"label\":190.0,\"value\":1},{\"label\":198.0,\"value\":59},{\"label\":383.0,\"value\":1},{\"label\":2656.65,\"value\":1}],\"id\":\"each_cnt_wid\",\"updatedAt\":1479330429}\n\n"
